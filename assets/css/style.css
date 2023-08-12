@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;800&display=swap');
 
+:root {
+    /* RESPONSIVE */
+    
+
+    /* COLORS */ 
+    --color-primary: #23272A;
+    --color-secudary: #FFF;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,8 +16,188 @@
 }
 body {
     display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/*  Style Header  */
+
+header {
+    width: 100%;
+    height: auto;
+    background: url(../img/headerbg.svg) center / cover no-repeat;
+}
+
+.header-container {
+    width: 428px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 24px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    
+}
+header h1{
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--color-secudary);
+    width: 278px;
+
+}
+
+header p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-secudary);
+    width: 341px;
+}
+.btn-contente {
+    width: 341px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.btn-windows {
+    background: var(--color-secudary);
+    border: none;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 1rem;
+    font-weight: 400; 
+    color: var(--color-primary);
+    width: 341px;
+    height: 54px;
+    border-radius: 28px;
+}
+.btn-navigator {
+    background: var(--color-primary);
+    border: none;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-secudary);
+    width: 341px;
+    height: 52px;
+    border-radius: 28px;
+}
+
+/*  Style Main  */
+main {
+    width: 100%;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
+    align-items: center;
 }
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 24px;
+    justify-content: center;
+    gap: 27px;
+}
+.section img {
+    width: 349px;
+}
+.section-text-h2 h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    width: 370px; 
+}
+.section-text-p p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-primary);
+    width: 340px;    
+}
+.text-h2 h2 {
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--color-primary);
+    width: 360px;   
+}
+.main-04 img {
+    width: 329px;
+}
+
+/*  Style Footer  */
+
+footer {
+    background: var(--color-primary);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 44px 133px 51px;
+}
+footer img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;   
+}
+
+/*  Media query  Small  640px  */
+
+@media (min-width: 640px){
+    header {
+        display: flex;
+        justify-content: center;
+        background: url(../img/headerbgd.svg) center / cover no-repeat;
+
+    }
+    header h1 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+}
+/*  Media query  Medium 1024px  */
+
+@media (min-width: 1024px){ 
+    header {
+        display: flex;
+        justify-content: center;
+        background: url(../img/headerbgd.svg) center / cover no-repeat;
+    }
+    header h1 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+    header p {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .header-container {
+        display: flex;
+        justify-content: center;   
+    }
+    .section {
+        display: flex;
+        flex-direction: row;
+        padding: 40px 155px;
+        justify-content: center;
+        align-items: center;
+        gap: 27px;
+    }
+  
+    
+}
+
+
+
 
