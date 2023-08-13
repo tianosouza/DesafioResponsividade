@@ -32,7 +32,7 @@ header {
 }
 
 .header-container {
-    width: 428px;
+    /*width: 428px;*/
     display: flex;
     flex-direction: column;
     padding: 70px 24px;
@@ -89,7 +89,7 @@ header p {
 
 /*  Style Main  */
 main {
-    width: 100%;
+    /*width: 100%;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -181,7 +181,7 @@ footer img {
 @media (min-width: 1024px){ 
     header {
         display: flex;
-        justify-content: center;
+        
         background: url(../img/headerbgd.svg) center / cover no-repeat;
     }
     header h1 {
@@ -194,6 +194,34 @@ footer img {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    .btn-contente {
+       
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+    .btn-windows {
+        background: var(--color-secudary);
+        border: none;
+        font-family: 'Open Sans' sans-serif;
+        font-size: 1rem;
+        font-weight: 400; 
+        color: var(--color-primary);
+        width: 205px;
+        height: 44px;
+        border-radius: 28px;
+    }
+    .btn-navigator {
+        background: var(--color-primary);
+        border: none;
+        font-family: 'Open Sans' sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--color-secudary);
+        width: 281px;
+        height: 44;
+        border-radius: 28px;
     }
     .header-container {
         display: flex;
