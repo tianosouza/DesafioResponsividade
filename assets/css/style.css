@@ -23,31 +23,30 @@ header {
     justify-content: center;
     width: 100%;
     height: auto;
-    background: url(../img/headerbg.svg) center / cover no-repeat;
+    background: url(../img/headerbgd.svg) center / cover no-repeat;
 }
 .header-container {
     display: flex;
-    width: 428px;
+    width: 328px;
     flex-direction: column;
     justify-content: center;
-    padding: 70px 24px;
+    padding: 70px 10px;
     gap: 24px;   
 }
 header h1{
     font-family: 'Luckiest Guy', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
     color: var(--color-secudary);
-    width: 278px;
+    width: 178px;
 }
 header p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     color: var(--color-secudary);
-    width: 381px;
-    
+    width: 311px;  
 }
 .btn-contente {
     display: flex;
@@ -58,22 +57,22 @@ header p {
     background: var(--color-secudary);
     border: none;
     font-family: 'Open Sans' sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400; 
     color: var(--color-primary);
-    width: 381px;
-    height: 54px;
+    width: 300px;
+    height: 34px;
     border-radius: 28px;
 }
 .btn-navigator {
     background: var(--color-primary);
     border: none;
     font-family: 'Open Sans' sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     color: var(--color-secudary);
-    width: 381px;
-    height: 52px;
+    width: 300px;
+    height: 34px;
     border-radius: 28px;
 }
 /*  Style Main  */
@@ -91,28 +90,31 @@ main {
     gap: 27px;
 }
 .section img {
-    width: 379px;
+    width: 329px;
 }
 .section-text-h2 h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
     font-weight: 800;
     color: var(--color-primary);
-    width: 370px; 
+    width: 350px; 
 }
 .section-text-p p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     color: var(--color-primary);
-    width: 378px;    
+    width: 358px;    
 }
 .text-h2 h2 {
     font-family: 'Luckiest Guy', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: var(--color-primary);
     width: 376px;   
+}
+.main-01, .main-03 {
+    margin: auto;
 }
 .main-04 {
     display: flex;
@@ -120,10 +122,11 @@ main {
     background: #F6F6F6;
 }
 .main-04 img {
-    width: 379px;
+    width: 329px;
     
 }
 .content-section {
+    margin: auto;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -160,7 +163,8 @@ footer img {
     header h1 {
         margin: auto;
         text-align: center;
-        font-size: 2.5rem;  
+        font-size: 2.5rem;
+        width: 210px;  
     }
     .section {
         width: 500px;
