@@ -23,7 +23,7 @@ header {
     justify-content: center;
     width: 100%;
     height: auto;
-    background: url(../img/headerbgd.svg) center / cover no-repeat;
+    background: url(../img/headerbg.svg) center / cover no-repeat;
 }
 .header-container {
     display: flex;
