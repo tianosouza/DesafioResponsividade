@@ -12,7 +12,8 @@
     box-sizing: border-box;
 }
 body {
-    width: 720px;
+    width: 100vw;
+    min-heigth: 100vh;
     display: flex;
     flex-direction: column; 
     overflow-x: hidden;
