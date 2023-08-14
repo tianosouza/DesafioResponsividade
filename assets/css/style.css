@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 body {
-    width: 370px;
+    width: 320px;
     display: flex;
     flex-direction: column; 
     overflow-x: hidden;
