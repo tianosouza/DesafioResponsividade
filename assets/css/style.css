@@ -94,10 +94,12 @@ main {
 }
 .section img {
     width: 329px;
+    display: flex;
+    margin: auto;
 }
 .section-text-h2 h2 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: 800;
     color: var(--color-primary);
     width: 329px; 
@@ -137,6 +139,9 @@ main {
 #section-bg-04, #section-bg-02 {
     width: 100%;
     background: #F6F6F6;  
+}
+#section-bg-01, #section-bg-03 {
+    width: 100%;
 }
 
 /*  Style Footer  */
