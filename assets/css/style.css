@@ -23,7 +23,6 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: auto;
     background: url(../img/headerbg.svg) center / cover no-repeat;
 }
 .header-container {
@@ -93,7 +92,7 @@ main {
     gap: 27px;
 }
 .section img {
-    width: 329px;
+    width: 100%;
     display: flex;
     margin: auto;
 }
@@ -166,7 +165,7 @@ footer img {
 @media (min-width: 640px){
 
     header {
-        background: url(../img/headerbgd.svg) center / cover no-repeat;   
+        background: url(../img/headerbgd.svg) center / cover no-repeat; 
     }
     header h1 {
         margin: auto;
@@ -185,7 +184,7 @@ footer img {
         margin: auto;
         text-align: center;
     }
-}
+   }
 
 /*  Media query  Medium 840px  */
 
